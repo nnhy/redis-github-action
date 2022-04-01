@@ -1,0 +1,10 @@
+name: 'Redis in GitHub Actions'
+description: '启动一个Redis，用于单元测试'
+
+branding:
+  icon: 'database'
+  color: 'red'
+
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
